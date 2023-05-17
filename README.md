@@ -11,11 +11,11 @@ This README provides you with the necessary information to get started with the 
 Prerequisites
 Before you proceed, make sure you have the following software installed on your system:
 
-Python: The programming language used for this project. You can download it here. Python.com
+Python: The programming language used for this project. You can download it here. (https://www.python.org/)
 
-Pillow: A Python Imaging Library. Install it using pip with the command pip install pillow. In a command prompt
+Pillow: A Python Imaging Library. Install it using pip with the command (pip install pillow). In a command prompt
 
-OpenAI: The API for GPT-3. Install it using pip with the command pip install openai.in a command prompt 
+OpenAI: The API for GPT-3. Install it using pip with the command (pip install openai).in a command prompt 
 
 GitHub: You will need a GitHub account and API key for accessing the GitHub API. Can be found on your github account 
 
@@ -28,16 +28,23 @@ Above the list of files, click on the <> Code button.
 
 To the right of the <> Code button, click on the Download ZIP button.
 
-Extract the zip file to your desired location. Any folder suggested location is Desktop 
+Extract the zip file to your desired location. Any folder (suggested location is Desktop) 
 
 Navigate to the extracted folder in your terminal/command prompt. Or open the folder and type cmd in the bar
 
-Pip the required resources listed above 
+Pip the required resources listed above or use this string 
+(pip install pillow PyGithub openai
+)
+
 Insert your keys 
-Github key goes in the script around line 306 
-Open ai key goes in config.py 
+Github key goes in the script around line 306
+says(github-token here)
+Open ai key goes in config.py
 
 All done now just double click the ledupey.py
+you should get a loading screen pop-up 
+that can be changed using the other python file thats included 
+
 
 Usage
 After downloading and setting up the project, open the script in your IDE or Python editor. You will need to add your GitHub API key to the appropriate location in the script. Additionally, you will need to add your OpenAI key to the config.py file.
@@ -47,6 +54,8 @@ We welcome contributions from everyone. Before you start contributing, please se
 
 Support
 If you're having any problem, please raise an issue on GitHub and ill try to sort it will get back to you. Be sure to check the existing issues before creating a new one. And check that you've installed correctly 
+
+If you make a video or share this code base please just give me a shoutout XD have fun duping 
 
 License
 This project is licensed under the Open eclispe
